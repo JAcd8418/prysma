@@ -1,0 +1,96 @@
+.header__principal{
+    background-color: rgb(3,3,0 );
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;    
+}
+.nav_admin_container{
+    background-color:#000000;
+    width: 37vh;
+    margin: 0;
+    top:0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.nav_admin_i{
+    color: #ffff;
+    display: block;
+    
+    margin-top: 4vh;
+}
+
+.nav_admin_link{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.nav_admin_ul{
+    margin-top: 13vh;
+   
+    margin-right: 3vh;
+ 
+}
+
+.nav_admin_logo{
+    height: 19vh;
+    width: 23vh;
+    margin:0 auto;
+    margin-top: 4vh;
+   
+    padding: 1vh;
+    
+    border: solid 2px #FFD000;
+}
+
+
+.main__categorias{
+background-color: #FFD000;
+height: 100vh;
+width: 80%;
+position: fixed;  
+top: 0;
+right:0 ; 
+
+column-gap: 10px;
+padding-top: 40px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.button_categorias{
+margin-right: 30px;
+ 
+}
+.categorias{
+columns: 3;
+margin-top: 23hv;
+margin-left: 13hv;
+color: antiquewhite;
+}
+#h3{
+    margin-left: 50px;
+    font-size: 1.3em; 
+    text-align: center;  
+}
+.img_categorias{
+    margin-top: 10px;
+    width: 200px;
+    height: 500px;
+    margin-left: 50px;
+}
